@@ -57,7 +57,7 @@ monthly_tips = df.groupby("year_month")[["Tips", "Time-Worked"]].sum().round(2)
 
 # Format monthly tips as a Markdown list
 monthly_tips_list = "\n".join(
-    [f"- {month} - ({totals['Time-Worked']}h): ${totals['Tips']:.2f}" for month, totals in monthly_tips.iterrows()]
+    [f"- {month} - ({totals['Time-Worked']}h): CHF {totals['Tips']:.2f}" for month, totals in monthly_tips.iterrows()]
 )
 
 # Get last updated date
