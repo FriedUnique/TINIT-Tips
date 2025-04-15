@@ -35,7 +35,7 @@ jobs:
 
       # Run the Python script to update README
       - name: Update README
-        run: python scripts/update_readme.py
+        run: python scripts/update-readme.py
 
       # Commit and push changes to README.md
       - name: Commit and push changes
