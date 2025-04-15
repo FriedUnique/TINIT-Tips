@@ -1,14 +1,11 @@
-# My Project
 
-## Tips Data Overview
-Last updated: 2025-04-15
+            # My Project
 
-### Sample Data
-| Date       |   Time-Worked |   Tips |
-|:-----------|--------------:|-------:|
-| 15.04.2025 |             8 |     10 |
+            ## Tips Data Overview
 
-### Monthly Tips Summary
-- 2025-04 - (8h): $10.00
+            ### Sample Data
 
-*This section is automatically updated when `tips.csv` changes.*
+            ### Monthly Tips Summary
+
+            *This section is automatically updated when `tips.csv` changes.*
+            
