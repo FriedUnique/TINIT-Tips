@@ -24,7 +24,22 @@ df["Date"] = pd.to_datetime(df["Date"], errors="coerce", dayfirst=True)
 
 df = df.dropna(subset=["Date"])
 if df.empty:
-    raise ValueError("No valid dates in 'Date' column after parsing")
+    print("No valid dates")
+    with open(readme_file, "w") as f:
+        f.write("""
+            # My Project
+
+            ## Tips Data Overview
+
+            ### Sample Data
+
+            ### Monthly Tips Summary
+
+            *This section is automatically updated when `tips.csv` changes.*
+            """
+        )
+    quit()
+    
 
 
 
