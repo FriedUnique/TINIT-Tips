@@ -22,9 +22,9 @@ if not all(col in df.columns for col in required_columns):
 # Convert date column to datetime
 df["Date"] = pd.to_datetime(df["Date"], errors="coerce", dayfirst=True)
 
-# Check for invalid dates
-if df["Date"].isna().any():
-    raise ValueError("Some dates in 'date' column are invalid")
+df = df.dropna(subset=["Date"])
+if df.empty:
+    raise ValueError("No valid dates in 'Date' column after parsing")
 
 
 
