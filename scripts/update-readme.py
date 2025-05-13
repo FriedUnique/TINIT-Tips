@@ -49,11 +49,13 @@ if df.empty:
 
 display_columns = ["Date", "Time-Worked", "Tips"]
 df["Date_display"] = df["Date"].dt.strftime("%d.%m.%Y")
-sample_data = df[["Date_display", "Time-Worked", "Tips"]].head(5).rename(columns={"Date_display": "Date"}).to_markdown(index=False)
+sample_data = df[["Date_display", "Time-Worked", "Tips"]].rename(columns={"Date_display": "Date"}).to_markdown(index=False)
 
 # Calculate sum of tips per month
 df["year_month"] = df["Date"].dt.strftime("%Y-%m")  # Format as YYYY-MM
 monthly_tips = df.groupby("year_month")[["Tips", "Time-Worked"]].sum().round(2)
+
+total_worked = df["Time-Worked"].sum()
 
 # Format monthly tips as a Markdown list
 monthly_tips_list = "\n".join(
@@ -71,11 +73,13 @@ new_content = f"""# My Project
 ## Tips Data Overview
 Last updated: {last_updated}
 
-### Sample Data
-{sample_data}
+Total time worked since X: {total_worked}
 
 ### Monthly Tips Summary
 {monthly_tips_list}
+
+### Sample Data
+{sample_data}
 
 *This section is automatically updated when `tips.csv` changes.*
 """
