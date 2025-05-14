@@ -63,7 +63,7 @@ monthly_tips_list = "\n".join(
 )
 
 # Get last updated date
-last_updated = df["Date"].max().strftime("%Y-%m-%d")
+last_updated = df["Date"].max().strftime("%d-%m-%Y")
 
 total_tips = df['Tips'].sum()
 
@@ -73,12 +73,14 @@ new_content = f"""# My Project
 ## Tips Data Overview
 Last updated: {last_updated}
 
-Total time worked since X: {total_worked}
+Total time worked since 12.04.2025: {total_worked}
+
+Total tips earned since 12.04.2025: {total_tips}
 
 ### Monthly Tips Summary
 {monthly_tips_list}
 
-### Sample Data
+### Tip History
 {sample_data}
 
 *This section is automatically updated when `tips.csv` changes.*
