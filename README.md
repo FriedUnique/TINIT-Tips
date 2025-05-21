@@ -3,13 +3,13 @@
 ## Tips Data Overview
 Last updated: 25-05-2025
 
-Total time worked since 12.04.2025: 138.5
+Total time worked since 12.04.2025: 139.5
 
-Total tips earned since 12.04.2025: 158.5
+Total tips earned since 12.04.2025: 167.5
 
 ### Monthly Tips Summary
 - 2025-04 - (8.0h): CHF 15.00
-- 2025-05 - (130.5h): CHF 143.50
+- 2025-05 - (131.5h): CHF 152.50
 
 ### Tip History
 | Date       |   Time-Worked |   Tips |
@@ -26,7 +26,7 @@ Total tips earned since 12.04.2025: 158.5
 | 16.05.2025 |           5.5 |    0   |
 | 17.05.2025 |          14.5 |   10   |
 | 18.05.2025 |          13   |   45   |
-| 21.05.2025 |           5   |  nan   |
+| 21.05.2025 |           6   |    9   |
 | 23.05.2025 |           5   |  nan   |
 | 24.05.2025 |           8   |  nan   |
 | 25.05.2025 |           5   |  nan   |
