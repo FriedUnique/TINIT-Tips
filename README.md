@@ -1,16 +1,16 @@
 # My Project
 
 ## Tips Data Overview
-Last updated: 11-06-2025
+Last updated: 14-06-2025
 
-Total time worked since 12.04.2025: 248.0
+Total time worked since 12.04.2025: 263.5
 
-Total tips earned since 12.04.2025: 233.5
+Total tips earned since 12.04.2025: 268.5
 
 ### Monthly Tips Summary
 - 2025-04 - (53.0h): CHF 15.00
 - 2025-05 - (157.0h): CHF 187.50
-- 2025-06 - (38.0h): CHF 31.00
+- 2025-06 - (53.5h): CHF 66.00
 
 ### Tip History
 | Date       |   Time-Worked |   Tips |
@@ -40,5 +40,6 @@ Total tips earned since 12.04.2025: 233.5
 | 07.06.2025 |          12   |   26   |
 | 08.06.2025 |           2   |    0   |
 | 11.06.2025 |          12   |    0   |
+| 14.06.2025 |          15.5 |   35   |
 
 *This section is automatically updated when `tips.csv` changes.*
