@@ -73,9 +73,9 @@ new_content = f"""# My Project
 ## Tips Data Overview
 Last updated: {last_updated}
 
-Total time worked since 12.04.2025: {total_worked}
+Total time worked since {df["Date_display"].head(1).values[0]}: {total_worked}
 
-Total tips earned since 12.04.2025: {total_tips}
+Total tips earned since {df["Date_display"].head(1).values[0]}: {total_tips}
 
 ### Monthly Tips Summary
 {monthly_tips_list}
