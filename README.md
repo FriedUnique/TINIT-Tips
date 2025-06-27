@@ -5,7 +5,7 @@ Last updated: 29-06-2025
 
 Total time worked since 01.01.2025: 534.0
 
-Total tips earned since 01.01.2025: 481.5
+Total tips earned since 01.01.2025: 501.5
 
 ### Monthly Tips Summary
 - 2025-01 - (61.0h): CHF 50.00
@@ -13,7 +13,7 @@ Total tips earned since 01.01.2025: 481.5
 - 2025-03 - (81.0h): CHF 60.00
 - 2025-04 - (53.0h): CHF 45.00
 - 2025-05 - (157.0h): CHF 187.50
-- 2025-06 - (141.0h): CHF 109.00
+- 2025-06 - (141.0h): CHF 129.00
 
 ### Tip History
 | Date       |   Time-Worked |   Tips |
@@ -52,7 +52,7 @@ Total tips earned since 01.01.2025: 481.5
 | 21.06.2025 |          15   |   25   |
 | 22.06.2025 |          11   |   10   |
 | 24.06.2025 |           9   |    8   |
-| 26.06.2025 |           6   |    0   |
+| 26.06.2025 |           6   |   20   |
 | 27.06.2025 |          10   |    0   |
 | 28.06.2025 |          12.5 |    0   |
 | 29.06.2025 |          11   |    0   |
